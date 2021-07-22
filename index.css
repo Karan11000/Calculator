@@ -1,0 +1,71 @@
+body{
+    /* margin: 100px 0px; */
+    background: radial-gradient(#1e8fa5,#08506b, black);
+    font-family: cursive;
+}
+.calculator{
+    height: 100vh;
+    /* background-color: black; */
+    /* margin: 42px 0px; */
+    width: 100%;
+    /* align-items: center; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#dis{
+    /* align-self: center; */
+    text-align: end;
+    /* border-radius: 7px; */
+    border: 1px solid black;
+    display: block;
+    width: 345px;
+    background-color: black;
+    color: red;
+    font-size: 35px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+#tab{
+    /* align-self: center; */
+    /* margin: 4px; */
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    justify-content: center;
+    padding: 15px 0px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+.btn{
+    background-color: black;
+    margin: 7px 2px;
+    color: red;
+    width: 75px;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 25px;
+    border: 1px solid black;
+}
+.btn:hover{
+    /* border: 1px solid grey; */
+    background: #210b04;
+    /* font-size: 30px; */
+}
+#C{
+    background: #FF5722;
+    color: white;
+    height: 55px;
+}
+#C:hover{
+    /* color: red; */
+    background: darkred;
+}
+#E:hover{
+    background-color: green;
+}
